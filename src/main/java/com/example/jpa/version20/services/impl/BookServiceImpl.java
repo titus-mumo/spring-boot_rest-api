@@ -43,7 +43,7 @@ public class BookServiceImpl implements BookService {
             bookRepository.deleteById(isbn);
             return "Book deleted";
         } else {
-            return "Book not found";
+            return "book_not_found";
         }
     }
 }
